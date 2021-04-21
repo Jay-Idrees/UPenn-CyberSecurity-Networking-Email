@@ -187,6 +187,7 @@ ns26.domaincontrol.com  has AAAA address 2603:5:2261::d
 
   - Document how you would fix the DNS record to prevent this issue from happening again.
     
+    > The website `ns2.galaxybackup.com` for the backup DNS server should be added to nameserver, which it shows that its not currently listed
   
 ### Mission 5
 
