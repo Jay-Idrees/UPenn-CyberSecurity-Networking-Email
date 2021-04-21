@@ -134,8 +134,20 @@ theforce.net    text = "google-site-verification=XTU_We07Cux-6WCSOItl0c_WS29hzo9
 Your mission:
   
   - Document how a CNAME should look by viewing the CNAME of `www.theforce.net` using NSLOOKUP.
+
+ `nslookup -type=cname www.theforce.net`
+
+```
+Server:         192.168.13.2
+Address:        192.168.13.2#53
+
+Non-authoritative answer:
+www.theforce.net        canonical name = theforce.net.
+```
   
   - Explain why the sub page of `resistance.theforce.net` isn't redirecting to `theforce.net`.
+
+  > As noted above the canonical name for www.theforce.net is currently listed as theforce.net which is incorrect and should instead be listed as resistance.theforce.net
   
   - Document what a corrected DNS record should be.
   
