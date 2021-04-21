@@ -204,6 +204,8 @@ Your Mission:
 - Confirm your path doesn't include `Planet N` in its route.
 
 - Document this shortest path so it can be used by the Resistance to develop a static route to improve the traffic.
+
+> D-C-E-F--J-I-L-Q-T-V-Jedha
   
 ### Mission 6
 
