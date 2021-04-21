@@ -167,6 +167,24 @@ www.theforce.net        canonical name = theforce.net.
 
   - Confirm the DNS records for `princessleia.site`.
 
+`nslookup -type=ns princessleia.site` to check name server
+```
+Server:         192.168.13.2
+Address:        192.168.13.2#53
+
+Non-authoritative answer:
+princessleia.site       nameserver = ns26.domaincontrol.com.
+princessleia.site       nameserver = ns25.domaincontrol.com.
+
+Authoritative answers can be found from:
+ns25.domaincontrol.com  internet address = 97.74.102.13
+ns25.domaincontrol.com  has AAAA address 2603:5:2161::d
+ns26.domaincontrol.com  internet address = 173.201.70.13
+ns26.domaincontrol.com  has AAAA address 2603:5:2261::d
+```
+
+
+
   - Document how you would fix the DNS record to prevent this issue from happening again.
     
   
