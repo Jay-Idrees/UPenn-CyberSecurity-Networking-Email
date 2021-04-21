@@ -119,7 +119,11 @@ theforce.net    text = "google-site-verification=XTU_We07Cux-6WCSOItl0c_WS29hzo9
 
   - Explain why the Force's emails are going to spam.
 
+  > The server ip address currently listed in the SPF record is incorrect
+
   - Document what a corrected DNS record should be.
+
+  > The corrected DNS should have an ip address of `45.23.176.21`
   
 ### Mission 3
 
