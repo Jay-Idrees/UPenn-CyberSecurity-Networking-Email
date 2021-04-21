@@ -151,7 +151,7 @@ www.theforce.net        canonical name = theforce.net.
   
   - Document what a corrected DNS record should be.
   
-  > The corrected DNS record should be resistance.thforce.net instead of theforce.net
+  > The corrected DNS record should be resistance.theforce.net instead of theforce.net
   
 ### Mission 4
 
