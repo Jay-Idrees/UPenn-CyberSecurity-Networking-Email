@@ -259,6 +259,19 @@ Your Mission:
     - **Note**: A backup option is provided in the TXT record (as a website) in case the main telnet site is unavailable
   
   - Take a screen shot of the results.
+
+ `nslookup -type=txt princessleia.site`
+
+```
+Server:         192.168.13.2
+Address:        192.168.13.2#53
+
+Non-authoritative answer:
+princessleia.site       text = "Run the following in a command line: telnet towel.blinkenlights.nl or as a backup access in a browser: www.asciimation.co.nz"
+```
+
+
+
     
 ### Conclusion
 
