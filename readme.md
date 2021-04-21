@@ -104,6 +104,19 @@ Your mission:
 
   - Determine and document the `SPF` for `theforce.net` using NSLOOKUP.
 
+`nslookup -type=txt theforce.net`
+
+ ```                                                                                                     130 ⨯
+Server:         192.168.13.2
+Address:        192.168.13.2#53
+
+Non-authoritative answer:
+theforce.net    text = "google-site-verification=ycgY7mtk2oUZMagcffhFL_Qaf8Lc9tMRkZZSuig0d6w"
+theforce.net    text = "v=spf1 a mx mx:smtp.secureserver.net include:aspmx.googlemail.com ip4:104.156.250.80 ip4:45.63.15.159 ip4:45.63.4.215"
+theforce.net    text = "google-site-verification=XTU_We07Cux-6WCSOItl0c_WS29hzo92jPE341ckbOQ"
+
+```
+
   - Explain why the Force's emails are going to spam.
 
   - Document what a corrected DNS record should be.
