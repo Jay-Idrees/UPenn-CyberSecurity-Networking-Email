@@ -83,9 +83,12 @@ aspmx3.googlemail.com   has AAAA address 2a00:1450:400b:c00::1a
 
 - Explain why the Resistance isn't receiving any emails.
 
-> The URLs for the e-mail exchange servers are incorrect
+> The URLs listed for the e-mail exchange servers are incorrect
 
 - Document what a corrected DNS record should be.
+
+- `asltx.l.google.com`
+- `asltx.2.google.com`
 
 ### Mission 2
 
