@@ -233,6 +233,17 @@ Your Mission:
 
   - Document these IP and MAC Addresses, as the resistance will use these IP addresses to launch a retaliatory attack.
 
+> Answer
+```
+Sender's MAC:
+Cisco-Li_e3:e4:01 (00:0f:66:e3:e4:01)
+Sender's IP:
+172.16.0.1
+Target's MAC:
+IntelCor_55:98:ef (00:13:ce:55:98:ef)
+Target's ip:
+172.16.0.101
+```
 
 ### Mission 7 
 
